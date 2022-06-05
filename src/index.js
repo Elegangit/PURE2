@@ -1,5 +1,3 @@
-import "./styles.css";
-
 function Eligibility() {
   let name = prompt("What's your name?");
   let age = prompt("How old are you?");
