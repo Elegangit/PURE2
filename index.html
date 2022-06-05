@@ -55,6 +55,24 @@
 			Eligibility  
 			</button>
 			</strong></span>
+			<script>
+				function Eligibility() {
+  let name = prompt("What's your name?");
+  let age = prompt("How old are you?");
+  if (age <= 18) {
+    alert("Sorry," + name + "You cannot join PURE 😢");
+  } else {
+    alert(
+      "Hi," +
+        name +
+        "Welcome to PURE! 😊 Please provide your username and password"
+    );
+  }
+}
+let applyButton = document.querySelector("button");
+applyButton.addEventListener("click", Eligibility);
+
+			</script>
 	 <style> 
 			p {text-align: center; font-size: 40px; 
 	 padding: 15px 20px;
