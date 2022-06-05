@@ -1,14 +1,5 @@
 import "./styles.css";
 
-document.getElementById("app").innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel 
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
-`;
-
 function Eligibility() {
   let name = prompt("What's your name?");
   let age = prompt("How old are you?");
@@ -42,3 +33,32 @@ window.onclick = function (event) {
     modal.style.display = "none";
   }
 };
+
+function checkForm() {
+  var oldP = document.getElementById("oldP").value;
+  var newP = document.getElementById("newP").value;
+  var confirmP = document.getElementById("confirmP").value;
+
+  if (oldP != "" && newP != "" && confirmP != "") {
+    if (oldP != newP) {
+      if (newP == confirmP) {
+        return true;
+      } else {
+        alert("Confirm password is not same as you new password.");
+        return false;
+      }
+    } else {
+      alert(" This Is Your Old Password,Please Provide A New Password");
+      return false;
+    }
+  } else {
+    alert("All Fields Are Required");
+    return false;
+  }
+}
+
+function resetForm() {
+  var oldP = (document.getElementById("oldP").value = "");
+  var newP = (document.getElementById("newP").value = "");
+  var confirmP = (document.getElementById("confirmP").value = "");
+}
