@@ -276,6 +276,6 @@ button {color: white;
     }
   }
   
-  img { display: block; text-align: center; width:400px; size: 400px; margin: 50px auto 0 auto; padding:25px 40px;background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);filter:  brightness(115%) contrast(91%) saturate(107%); border-radius: 10px 100px 5px 100px; background-color: pink;} </style>
-		
+  img { display: block; text-align: center; width:400px; size: 400px; margin: 50px auto 0 auto; padding:25px 40px;background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);filter:  brightness(115%) contrast(91%) saturate(107%); border-radius: 10px 100px 5px 100px; background-color: pink;} 
+		</style>
   
