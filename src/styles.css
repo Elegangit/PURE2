@@ -5,7 +5,7 @@ body {
 h1 {color: #885df1; text-align: center;
   font-size:48px; font-weight:100; background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%); text-shadow: 5px 5px 10px rgba(229, 16, 245, 0.4);
 color: #e510f5; }
-p {text-align= centered; margin: 0 auto; border-radius: 50px;text-decoration: Bold; font-size: 18px; color: #272044; line-height:2; background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);}
+p {text-align: center; margin: 0 auto; border-radius: 50px;text-decoration: Bold; font-size: 18px; color: #272044; line-height:2; background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);}
 
 button {color: white; 
   background:blueviolet;
